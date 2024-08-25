@@ -1,0 +1,22 @@
+function validation(){
+    if(document.getElementById('name').value==null){
+        document.getElementById('er1').style.display="block";
+    }else{
+        document.getElementById('er1').style.display="none";
+    }
+    if(document.getElementById('email').value==null){
+        document.getElementById('er2').style.display="block";
+    }else{
+        document.getElementById('er2').style.display="none";
+    }
+    if(document.getElementById('password').value==null){
+        document.getElementById('er3').style.display="block";
+    }else{
+        document.getElementById('er3').style.display="none";
+    }
+    if(document.getElementById('address').value==null){
+        document.getElementById('er4').style.display="block";
+    }else{
+        document.getElementById('er4').style.display="none";
+    }
+}

@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+}
+form{
+    background-color: #ccfbe5;
+    width: 40%;
+    margin-left: 30%;
+    padding: 3% 3% 3% 3%;
+    font-family:'Times New Roman', Times, serif;
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 80px;
+    background-color: #499a7a;
+    color: aliceblue;
+}
+.inp{
+    margin-bottom: 20px;
+}
+.text{
+ 
+  width: 100%;
+  height: 30px;
+  border: none;
+  color: #499a7a;
+}
+.error{
+    background-color: rgb(199, 18, 18);
+    border-radius: 0 0 5px 5px;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    display: none;
+}
+.error2{
+    color:rgb(199, 18, 18) ;
+    font-size: 14px;
+    display: none;
+}
+
+textarea{
+    width: 100%;
+    height: 60px;
+    color: #499a7a;
+    border: none;
+}
+h3{
+ margin-bottom: 10px;
+}
+
+.gender{
+    margin-bottom: 20px;
+}
+span{
+    color: red;
+}
+.radio{
+    margin-right: 10px;
+    cursor: pointer;
+}
+input[type=checkbox] {
+    transform: scale(1.5);
+    margin-left: 10px;
+    accent-color: rgb(69, 126, 62);
+    cursor: pointer;   
+}
+input[type=radio] {
+    transform: scale(1.5);
+    accent-color: rgb(69, 126, 62);
+}
+.hb{
+    margin-top: 20px;
+    display: flex;
+}
+.hb1{
+    margin-right: 10px;
+}
+.hb2{
+    margin-left: 14%;
+}
+.hb2-1{
+    margin-left: 10%;
+}
+.hb3{
+    margin-left: 30%;
+}
+.btn-div{
+    text-align: center;
+    margin-top: 30px;
+}
+button{
+    padding: 10px 50px 10px 50px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #499a7a;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #366653;
+    color: #fff;
+}
+.form-div{
+    background-color:#7fd1ae;
+    padding: 10px;
+}

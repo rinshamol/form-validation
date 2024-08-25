@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/Style-btn.css">
+    <title>Form-btn</title>
+</head>
+<body>
+    
+    <form action="">
+       <div class="form-div"> <h1>Form Validation</h1>
+       
+      <div class="inp">
+        <label for="input">Name <span>*</span></label>
+        <input class="text" type="text" id="name" name="name" placeholder="Enter your Name">
+         <div class="error" id="er1">This Field is required</div>
+        </div>  
+         <div class="inp">
+            <label for="input">Email <span>*</span></label>
+        <input class="text" type="email" id="email" name="email" placeholder="Enter your Email">
+        <div class="error" id="er2">This Field is required</div>
+    </div>  
+    <div class="inp">
+   <label for="input">password <span>*</span></label>
+     <input class="text" type="password" id="password" name="password" placeholder="Enter your password">
+     <div class="error" id="er3">This Field is required</div>
+    </div>         
+     <div class="inp">
+        <label for="input">Address <span>*</span></label>
+        <textarea name="address" id="address" placeholder="Enter your address" ></textarea>
+        <div class="error" id="er4">This Field is required</div>
+    </div>         
+       <h3>Gender <span>*</span><div class="error2">(This Field is required)</div></h3>
+       <div class="gender" ><label for="radio">Male</label>
+       <input class="radio" type="radio" id="male" name="gender">
+       <label for="radio">Female</label>
+       <input class="radio" type="radio" id="female" name="gender"></div>
+       <h3>Hobbies<span>*</span><div class="error2">(This Field is required)</div></h3>
+      <div class="hb"><div class="hb1"><label for="checkbox">Reading</label>
+       <input type="checkbox" name="check" id="read"></div>
+       <div class="hb3"> <label for="checkbox" >Singing</label>
+       <input type="checkbox" name="check" id="sing"></div>
+       <div class="hb2"><label for="checkbox">Painting</label>
+       <input type="checkbox" name="check" id="paint"></div></div>
+       <div class="hb"><div class="hb1"><label for="checkbox">Drawing</label>
+       <input type="checkbox" name="check" id="Draw"></div>
+       <div class="hb3"><label for="checkbox">Swimming</label>
+       <input type="checkbox" name="check" id="swim"></div>
+       <div class="hb2 hb2-1"><label for="checkbox">Photography</label>   
+       <input type="checkbox" name="check" id="photo"></div></div>
+      <div class="btn-div"><button id="btn" class="btn" onclick="validation();">Submit</button></div> 
+    </div>
+    </form>
+    <script src="JS/Script-btn.js"></script>
+</body>
+</html>
