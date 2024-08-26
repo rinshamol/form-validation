@@ -15,10 +15,12 @@ form{
     border-radius: 0 0 5px 5px;
     color: white;
     padding: 5px 10px 5px 10px;
+    display: none;
 }
 .error2{
     color:rgb(199, 18, 18) ;
     font-size: 14px;
+    display: none;
 }
 
 h1{

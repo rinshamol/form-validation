@@ -8,7 +8,7 @@
 </head>
 <body>
     
-    <form action="">
+    <form action="" id="myForm">
        <div class="form-div"> <h1>Form Validation</h1>
        
       <div class="inp">
@@ -31,12 +31,14 @@
         <textarea name="address" id="address" placeholder="Enter your address" ></textarea>
         <div class="error" id="er4">This Field is required</div>
     </div>         
-       <h3>Gender <span>*</span><div class="error2">(This Field is required)</div></h3>
+
+       <h3>Gender <span>*</span><div class="error2" id="er5">(This Field is required)</div></h3>
        <div class="gender" ><label for="radio">Male</label>
        <input class="radio" type="radio" id="male" name="gender">
        <label for="radio">Female</label>
        <input class="radio" type="radio" id="female" name="gender"></div>
-       <h3>Hobbies<span>*</span><div class="error2">(This Field is required)</div></h3>
+
+       <h3>Hobbies<span>*</span><div class="error2" id="er6">(This Field is required)</div></h3>
       <div class="hb"><div class="hb1"><label for="checkbox">Reading</label>
        <input type="checkbox" name="check" id="read"></div>
        <div class="hb3"> <label for="checkbox" >Singing</label>
@@ -49,7 +51,7 @@
        <input type="checkbox" name="check" id="swim"></div>
        <div class="hb2 hb2-1"><label for="checkbox">Photography</label>   
        <input type="checkbox" name="check" id="photo"></div></div>
-      <div class="btn-div"><button id="btn" class="btn" onclick="validation();">Submit</button></div> 
+      <div class="btn-div"><button id="btn" class="btn" onclick="validation(); return false;">Submit</button></div> 
     </div>
     </form>
     <script src="JS/Script-btn.js"></script>

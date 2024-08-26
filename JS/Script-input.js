@@ -55,9 +55,12 @@ function validation(){
     else{
         document.getElementById('er6').style.display="none";
     }
-    if(isValid){
-        document.getElementById('myForm').submit();
+    if(!isValid){
+        return false;
+    }else{
+       
         alert("Form Submitted SuccessFully");
+        return true;
     }
 
 }
