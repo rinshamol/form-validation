@@ -74,14 +74,18 @@ input[type=radio] {
 }
 .hb1{
     margin-right: 10px;
+    display: flex;
 }
 .hb2{
     margin-left: 14%;
+    display: flex;
 }
 .hb2-1{
     margin-left: 10%;
+    display: flex;
 }
 .hb3{
+    display: flex;
     margin-left: 30%;
 }
 .btn-div{
