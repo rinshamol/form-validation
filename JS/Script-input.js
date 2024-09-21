@@ -55,12 +55,11 @@ function validation(){
     else{
         document.getElementById('er6').style.display="none";
     }
-    if(!isValid){
-        return false;
-    }else{
-       
+    if(isValid){
         alert("Form Submitted SuccessFully");
         return true;
+    }else{
+        return false;
     }
 
 }
